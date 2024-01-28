@@ -8,6 +8,11 @@ class employee:
         self.lastname = lastname
         self.dob = dob
         self.town = town
+        
+        
+    def printfullname(self):
+        print(self.firstname + self.lastname)
+            
 
 name1 = str(input("enter your first name: "))
 name2 = str(input("enter your last name: "))
@@ -16,3 +21,5 @@ towninput = str(input("enter your town of residence: "))
 employee1 = employee(name1,name2,dobinput,towninput)
 
 print(employee1.firstname)
+
+print(employee1.printfullname())
