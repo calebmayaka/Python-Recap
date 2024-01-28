@@ -17,3 +17,5 @@ q,w,e = 1,2,3
 
 t = 100
 t = t + 1
+
+print(y,a,b,w,q,e,t)
