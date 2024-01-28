@@ -15,3 +15,5 @@ b = 20
 
 if a>9 and b==20:
     print("condition is true")
+    
+#logical operators include and or and Not
