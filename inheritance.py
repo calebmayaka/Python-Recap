@@ -1,5 +1,5 @@
 # inheritance is an Object oriented concept in which there is a main class and child classes
-# child classes inheriat properties from the main class
+# child classes inherit properties from the main class
 
 class employee:
     def __init__(self,firstname,lastname,dob):
