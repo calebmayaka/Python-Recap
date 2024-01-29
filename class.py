@@ -10,4 +10,11 @@ class employee:
     
     
 class developer(employee):
+    def __init__(self,name,dob,town,language):
+        super().__init__(name,dob,town)
+        self.language = language
+    
+name_input = str(input("Enter your full name: "))
+
+developer1 = developer(name_input,dob_input,town_input,language_input)
     
