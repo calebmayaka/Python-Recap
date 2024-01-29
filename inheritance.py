@@ -11,7 +11,11 @@ class employee:
         return full
 fname = str(input("Enter your firstname: "))
 lname = str(input("enter your last name: ")) 
+dob = int(input("enter your year of birth: "))
   
 
-
 employee1 = employee(fname,lname,dob)
+
+print(employee1.firstname)
+
+print(employee1.printlastname())
