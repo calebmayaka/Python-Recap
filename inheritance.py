@@ -6,7 +6,7 @@ class employee:
         self.firstname = firstname
         self.lastname = lastname
         self.dob = dob
-    def printlastname(self):
+    def printfullname(self):
         full = self.firstname, self.lastname
         return full
 fname = str(input("Enter your firstname: "))
@@ -18,4 +18,17 @@ employee1 = employee(fname,lname,dob)
 
 print(employee1.firstname)
 
-print(employee1.printlastname())
+print(employee1.printfullname())
+
+class softwaredev(employee):
+    def __init__(self,firstname,lastname,dob,language):
+        super().__init__(firstname,lastname,dob)
+        self.language  = language
+
+languagein = str(input("Enter Your Programming Language:"))
+dev1 = softwaredev(fname,languagein, lname, lname)
+
+print(dev1.firstname, dev1.printfullname(), dev1.language)
+
+
+    
