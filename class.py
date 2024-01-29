@@ -5,4 +5,9 @@ class employee:
         self.town = town
         
     def printemployeedetails(self):
-        details_print = 
+        details_print = (f"name is {self.name} and the town is {self.town} and dob is {self.dob}")
+        return details_print
+    
+    
+class developer(employee):
+    
