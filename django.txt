@@ -1,0 +1,14 @@
+django is a python web framework that is used to develop scalable web applications
+django uses the MVT model - it used models, view and templates 
+in django you have to create a virtual environment using the command 
+
+virtualenv new    - new is the name of the virtual environment
+
+if virtualenv is not installed then yoy have to install it using the command - pip install virtualenv
+
+then activating the virtual environment
+
+new/scripts/activate
+
+after activating the virtual environemnt we can then install django and all the other dependacies that are required by the project
+
