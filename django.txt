@@ -12,3 +12,12 @@ new/scripts/activate
 
 after activating the virtual environemnt we can then install django and all the other dependacies that are required by the project
 
+pip install django
+
+then creating a new project
+
+django-admin startproject JobPortal
+
+then creating an app in the project
+
+python manage.py startapp loginandsignin
