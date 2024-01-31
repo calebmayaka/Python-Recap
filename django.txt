@@ -21,3 +21,21 @@ django-admin startproject JobPortal
 then creating an app in the project
 
 python manage.py startapp loginandsignin
+
+different modules of the system are designed in different apps which enhance modularity and can be reused
+
+each app has urls, templates - the urls define where the user will be routed to when he/she goes to  spcific link.
+
+
+urls map a user to a perticular view
+
+templates can be passed over to urls to be diplayed
+
+there are two types of urls, the one in the root directory of the project and the urls in the individual app projects
+
+pathway
+
+main project path urls  -  application urls   -  application views   -  applicatin templates
+
+inheritance can be used in templated to reduce the redundancy of the code
+
